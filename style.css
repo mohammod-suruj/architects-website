@@ -315,6 +315,12 @@ body{
 }
 
 
+/* posision section end  */
+
+
+/* sponsors section start  */
+
+
 .sponsors{
         width: 1440px;
         margin: auto;
@@ -348,6 +354,9 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* sponsors section end  */
 
 
 .footer{
