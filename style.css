@@ -394,7 +394,8 @@ body{
         .nav ul{
             flex-direction: column;
             
-
+            
+            
         }
         .hd-text-1{
             text-align: center;
@@ -407,6 +408,16 @@ body{
         }
         .hd-text-2{
             font-size: 40px;
+            
+        }
+        .header-img img{
+            width: 500px;
+            height: 300px;
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
             
         }
 }
