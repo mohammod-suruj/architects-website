@@ -217,6 +217,15 @@ body{
     height: 160px;
     margin-bottom: -15px;
 }
+.all-p{
+    color: var(--Dark-03, #727272);
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;  
+    width: 514px;   
+}
 
 .ds-text-2{
     color: var(--Dark-01, #131313);
@@ -383,7 +392,7 @@ body{
 
 
     
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 360px) {
 
         .header-1{
             flex-direction: column;
@@ -393,7 +402,7 @@ body{
         
         .nav ul{
             flex-direction: column;
-            
+            width: 350px;
             
             
         }
@@ -414,13 +423,96 @@ body{
             padding: 20px;
         }
         .header-img img{
-            width: 500px;
-            height: 300px;
+            width: 340px;
+            height: 230px;
             
             display: block;
             margin-left: auto;
             margin-right: auto;
             margin-top: 50px;
             
+        }
+
+        .features-map{
+            flex-direction: column-reverse;
+            margin-top: 40px;
+            width: 350px;
+            
+            
+        }
+        .features-map-img{
+            width: 350px;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 0px;
+
+        }
+        .features-map-1{
+            margin-left: 0px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .descripsion{
+            flex-direction: column;
+            width: 350px;
+        }
+
+        .descripsion-1{
+            width: 350px;
+        }
+        .descripsion-a{
+            width: 350px;
+            height: auto;
+            padding: 0px 0px 10px 15px ;
+
+        }
+        .all-p {
+            width: 345px;
+        }
+        
+        .descripsion-2{
+            width: 350px;
+            background-position: center;
+        }
+        .big-btn{
+            left: 25px;
+            bottom: 0px;
+            width: 300px;
+            height: 150px;
+
+        }
+
+        .position{
+            width: 350px;
+        }
+        .posision-1{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .posision-2{
+            margin-bottom: 50px;
+        }
+        .ps-text-1{
+            text-align: center;
+            width: 345px;
+        }
+        .red{
+            width: 345px;
+        }
+        .sponsors{
+            width: 350px;
+        }
+
+        .sponsors-3{
+            width: 350px;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+        }
+
+        .sponsors-3 img{
+            margin-bottom: 50px;
+        }
+        .footer{
+            width: 350px;
+            text-align: center;
         }
 }
