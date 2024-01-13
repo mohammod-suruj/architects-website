@@ -454,8 +454,18 @@ body{
     .header-1{
         flex-direction: column;
     }    
+    .nav ul{
+        padding-left:0px ;
+    }
+    .nav ul li{
+        margin-left: 0px;
+        padding: 20px;
+    }
     .features-map{
         flex-direction: column;
+    }
+    .features-map-img{
+        margin-left: 0px;
     }
     .features-map-1{
         text-align: center;
