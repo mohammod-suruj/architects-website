@@ -398,6 +398,18 @@ body{
 
 /* resposive design  */
 
+@media screen and (max-width: 1470px){
+    .header-img{
+        padding: 50px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .header-img{
+        padding: 50px;
+    }
+    
+}
 
 @media screen and (max-width: 768px){
     .header-1{
@@ -405,6 +417,9 @@ body{
     }    
     .nav ul{
         padding-left:0px ;
+    }
+    .header-img{
+        padding: 50px;
     }
     .nav ul li{
         margin-left: 0px;
@@ -443,6 +458,9 @@ body{
     .header-1{
         flex-direction: column;
         padding: 0px;
+    }
+    .header-img{
+        padding: 50px;
     }
     
     .nav ul{
