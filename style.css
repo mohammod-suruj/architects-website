@@ -288,18 +288,19 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
-    margin-left: 50px;
     margin-top: 100px;
     
 }
 
 .posision-2{
-    max-width: 241.831px;
     height: 241.831px;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
+    margin: auto;
+    width: 241.831px;
+
 
     
 }
