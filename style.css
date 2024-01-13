@@ -24,7 +24,9 @@ body{
     align-items: center;
     padding: 50px 240px 0px 228px;
     margin-bottom: 100px;
+
 }
+
 .hd-text-1{
     color: var(--Dark-01, #131313);
     text-align: center;
@@ -399,15 +401,19 @@ body{
 @media  screen and (max-width: 576px) {
     .header-1{
         flex-direction: column;
+        padding: 0px;
     }
+    
     .nav ul{
         flex-direction: column;
         padding-left: 0px;
+      
     }
     .nav ul li{
         margin-left: 0px;
+       
     }
-
+    
     .features-map{
         flex-direction: column-reverse;
     }
