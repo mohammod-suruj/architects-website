@@ -404,11 +404,14 @@ body{
         }
         .header-2{
             width: 100%;
-            padding: 20px;
+            padding: 0px;
         }
         .hd-text-2{
             font-size: 40px;
             
+        }
+        .all-p-tag{
+            padding: 20px;
         }
         .header-img img{
             width: 500px;
