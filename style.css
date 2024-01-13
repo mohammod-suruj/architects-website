@@ -449,3 +449,33 @@ body{
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .header-1{
+        flex-direction: column;
+    }    
+    .features-map{
+        flex-direction: column;
+    }
+    .features-map-1{
+        text-align: center;
+    }
+    .descripsion{
+        flex-direction: column;
+    }
+    .big-btn{
+        left: 0px;
+    }
+    .posision-1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .posision-2{
+        margin-bottom: 40px;
+    }
+    .sponsors-3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors-3 img{
+        margin-bottom: 50px;
+    }
+}
